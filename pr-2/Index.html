@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital result</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="menu">
+            <h2>Digital Result</h2>
+            <h4>Put the obtain numbers of 10th Standers class..</h4>
+        </div>
+        <div class="main2">
+        <div class="second">
+        <div class="container1">
+            <label >HINDI</label>
+            <input id="marks1" type="number" placeholder="Marks" required>
+        </div>
+        <div class="container2">
+            <label >ENGLISH</label>
+            <input id="marks2" type="number" placeholder="Marks">
+        </div>
+        <div class="container3">
+            <label >MATHEMATICS</label>
+            <input id="marks3" type="number" placeholder="Marks">
+        </div>
+        <div class="container4">
+            <label >SOCIAL SCIENCE</label>
+            <input id="marks4" type="number" placeholder="Marks">
+        </div>
+        <div class="container5">
+            <label >SCIENCE</label>
+            <input id="marks5" type="number" placeholder="Marks">
+        </div>
+        <div class="container6">
+            <label >DROWING</label>
+            <input id="marks6" type="number" placeholder="Marks">
+        </div>
+    </div>
+    <div class="btn">
+        <button onclick="calculate()">calculate</button>
+    </div>
+    <div class="end">
+    <table border="1">
+        <tr>
+            <td>Total Marks :</td>
+            <td id="total">600</td>
+        </tr>
+        <tr>
+            <td>Obtain Marks :</td>
+            <td id="obtain"></td>
+        </tr>
+        <tr>
+            <td>Percentage :</td>
+            <td id="percent"></td>
+        </tr>
+        <tr>
+            <td>Grade :</td>
+            <td id="grad"></td>
+        </tr>
+        <tr>
+            <td>Remarks :</td>
+            <td id="remark"></td>
+        </tr>
+    </table>
+    </div>
+        </div>
+    </div>
+</body>
+<script src="Index.js"></script>
+</html>
